@@ -14,13 +14,13 @@
 1. Clone the repository:
 
 ```bash
-    git clone <repository_url>
+    git clone https://github.com/ris4911/event-management
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-    cd <project_directory>
+    cd event-management
 ```
 
 3. Install the dependencies:
