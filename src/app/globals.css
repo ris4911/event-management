@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-roboto: "Roboto", sans-serif;
+  --background: #ffffff;
+  --body-text-color: #00000073;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-roboto), sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--body-text-color);
+  background: var(--background);
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--body-text-color);
+  max-width: 2560px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--body-text-color);
+  outline: 1px solid var(--body-text-color);
+}

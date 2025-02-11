@@ -1,0 +1,133 @@
+import { Task } from "@/utils/types";
+
+export const mockData: Task[] = [
+  {
+    id: "1",
+    title: "All Deposits for Labor and Xrental Vendors Processed",
+    description:
+      "Design the mockup for the homepage using the insights gathered from the initial design phase",
+    department: "Production",
+    status: "To Do",
+    startDate: "Jan 20, 2025",
+    endDate: "March 4, 2025",
+    assignedUsers: ["user1", "user2", "user3"],
+  },
+  {
+    id: "2",
+    title: "Labor-Book Airline",
+    description:
+      "Design the mockup for the homepage using the insights gathered from the initial design phase",
+    department: "Labor",
+    status: "To Do",
+    startDate: "Jan 22, 2025",
+    endDate: "March 4, 2025",
+    assignedUsers: ["user4", "user5"],
+  },
+  {
+    id: "3",
+    title: "TD-Floats done in Availability Report",
+    description: "All Deposits for Labor and Xrental Vendors Processed",
+    department: "Logistics",
+    status: "In Progress",
+    startDate: "Jan 25, 2025",
+    endDate: "Feb 4, 2025",
+    assignedUsers: ["user6"],
+  },
+  {
+    id: "4",
+    title: "Logistics-State Border permits acquired",
+    description:
+      "Design the mockup for the homepage using the insights gathered from the initial design phase",
+    department: "Procurement",
+    status: "In Progress",
+    startDate: "Jan 28, 2025",
+    endDate: "March 4, 2025",
+    assignedUsers: ["user7", "user8", "user9"],
+  },
+  {
+    id: "5",
+    title: "Labor-Book Airline",
+    description: "Labor-Book Airline",
+    department: "Procurement",
+    status: "In Review",
+    startDate: "Jan 29, 2025",
+    endDate: "March 4, 2025",
+    assignedUsers: ["user10", "user11"],
+  },
+  {
+    id: "6",
+    title: "All Deposits for Labor and Xrental Vendors Processed",
+    description: "All Deposits for Labor and Xrental Vendors Processed",
+    department: "Logistics",
+    status: "Done",
+    startDate: "Jan 15, 2025",
+    endDate: "March 4, 2025",
+    assignedUsers: ["user15", "user16"],
+  },
+  {
+    id: "7",
+    title:
+      "Design the mockup for the homepage using the insights gathered from the initial design phase",
+    description:
+      "Design the mockup for the homepage using the insights gathered from the initial design phase",
+    department: "Logistics",
+    status: "Done",
+    startDate: "Jan 18, 2025",
+    endDate: "March 4, 2025",
+    assignedUsers: ["user17", "user18", "user19"],
+  },
+  {
+    id: "8",
+    title: "Labor-Book Airline",
+    description: "Labor-Book Airline",
+    department: "Procurement",
+    status: "In Review",
+    startDate: "Jan 21, 2025",
+    endDate: "March 4, 2025",
+    assignedUsers: ["user20", "user21"],
+  },
+  {
+    id: "*",
+    title: "TD-Floats done in Availability Report",
+    description:
+      "Design the mockup for the homepage using the insights gathered from the initial design phase",
+    department: "Logistics",
+    status: "To Do",
+    startDate: "Jan 25, 2025",
+    endDate: "Feb 4, 2025",
+    assignedUsers: ["user25", "user26"],
+  },
+  {
+    id: "10",
+    title: "Logistics-State Border permits acquired",
+    description:
+      "Design the mockup for the homepage using the insights gathered from the initial design phase",
+    department: "Travel",
+    status: "To Do",
+    startDate: "Jan 27, 2025",
+    endDate: "March 4, 2025",
+    assignedUsers: ["user27", "user28", "user29"],
+  },
+  {
+    id: "11",
+    title: "TD-Floats done in Availability Report",
+    description: "TD-Floats done in Availability Report",
+    department: "Creative",
+    status: "In Progress",
+    startDate: "Jan 10, 2025",
+    endDate: "March 4, 2025",
+    assignedUsers: ["user30", "user31"],
+  },
+  {
+    id: "12",
+    title:
+      "Design the mockup for the homepage using the insights gathered from the initial design phase",
+    description:
+      "Design the mockup for the homepage using the insights gathered from the initial design phase",
+    department: "Accounts",
+    status: "In Progress",
+    startDate: "Jan 12, 2025",
+    endDate: "March 4, 2025",
+    assignedUsers: ["user32", "user33", "user34"],
+  },
+];
